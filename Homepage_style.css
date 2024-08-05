@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 20vh;
+    background-image: linear-gradient(130deg, rgb(247, 196, 207) 50% , rgb(246, 128, 152) 50%);    
+    justify-content: end;
+    align-items: end;
+    
+}
+.doclogo{
+    height: 20vh;
+    width: 15vw;
+}
+.heartImg{
+    /* background-color: rgba(202, 141, 161, 0.374); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 60px;
+    margin-right: 340px;
+    margin-bottom: 30px;
+
+}
+.headLog{
+    width: 15vw;
+    height: 18vh;
+    padding-right: 200px;
+}
+.headLog h1{
+    padding: 40px;
+    font-size: 35px;
+}
+body{
+    background-color: rgba(202, 141, 161, 0.374);
+}
+.tittlebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-image: linear-gradient(130deg, rgb(226, 224, 243) 10% , rgb(226, 224, 243) 80%);
+}
+nav ul{
+    height: 30px; 
+    display: flex;
+    background-image: linear-gradient(130deg, rgba(241, 88, 119, 0.674) 20% , rgb(229, 217, 248) 80%);
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 8px 64px 10px 64px;
+}
+.logout{
+    background-color: rgba(220, 54, 65, 0.692);
+}
+.Advetising{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    overflow: scroll;
+}
+.Advetising img{
+    padding: 5px;
+}
+.appointment{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(202, 141, 161, 0.374);
+ 
+}
+.book{
+    display: flex;
+    justify-content: center;
+    text-align: centers;
+    width: 52vw;
+    height: 50vh;
+    font-size: 20px;
+    background-image: linear-gradient(130deg, rgb(250, 169, 185) 50% , rgb(229, 217, 248) 50%);
+    
+}
+.book h1{
+    font-size: 45px;
+    padding: 80px;
+}
+.book_detail{
+    background-image: linear-gradient(130deg, rgb(249, 176, 190) 50% , rgb(246, 128, 152) 50%);
+    width: 38vw;
+    height: 50vh;
+}
+.input{
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-bottom: 20px;
+}
+.input input{
+    width: 370px;
+    height: 26px;
+    font-size: 15px;
+    color: black;
+    padding: 8px;
+    border-radius: 80px;
+    display: inline-block;
+    box-shadow: 5px #160405a6;
+    background-color: white;
+    margin: 3px;
+}
+
+.button{
+    padding-left: 150px;
+    /* padding-bottom: 50px; */
+}
+#button1{
+    width: 300px;
+    height: 35px;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(14, 3, 3);
+    display: inline-block;
+    box-shadow: 5px #4431c5ea;
+    background-image: linear-gradient(135deg, #1f107d69 10%, #16035cbd 80%);
+}
+#button2{
+    width: 300px;
+    height: 43px;
+    font-size: 18px;
+    box-shadow: 5px #e37378f8;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding: 8px;
+    border-radius: 80px;
+    background-image: linear-gradient(135deg, #6c0d20ce 10%, #680505cb 80%);
+}
+.poster{
+    margin: 0 auto;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(202, 141, 161, 0.374);
+}
+@media (max-width: 980px) {
+    .poster {
+      flex-flow: wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+  }
+  .poster div {
+    height: 80vh;
+    width: 90vw;
+  }
+    .poster .left {
+        color: rgba(202, 141, 161, 0.374);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(Dr_image/OTposter.jpg);
+        overflow: hidden;
+      }
+  
+      .poster .left .leftContent{
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-image: linear-gradient(-10deg, rgba(91, 59, 62, 0.526)  10% , rgba(226, 214, 225, 0.592) 100%);
+        box-sizing: border-box;
+      }
+        
+.poster h1{
+    font-size: 55px;
+    color: rgba(4, 5, 23, 0.699);
+}
+ .poster h3{
+    font-size: 20px;
+    color: black;
+ }
+.leftContent button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(240, 230, 230);
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.948);
+
+} 
+ button:hover{
+    color: rgb(12, 11, 12);
+    background-color: rgb(209, 207, 223);
+ } 
+ @media (hover: hover) {
+    button:hover {
+      color: rgb(9, 8, 8);
+      background: rgba(243, 234, 234, 0.463);
+    }
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: rgba(202, 141, 161, 0.374);
+    
+}
+.small_container1{
+    width: 20vw;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(243, 235, 235);
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+.small_container2{
+    width: 20vw;
+    font: bold;
+    height: 30vh;
+    background-color: #2d648238;
+    margin-right: 60px;
+    margin-left: 60px;
+
+}.small_container3{
+    width: 20vw;
+    height: 30vh;
+    background-color: #2d648238;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}.small_container4{
+    width: 20vw;
+    height: 30vh;
+    background-color: #2d648238;
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+.policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color: rgba(202, 141, 161, 0.374);
+    border-top-width: 5px;
+    border-top-style: ridge;
+    border-bottom-width: 2px;
+    border-bottom-style: ridge;
+}
+.callnow{
+    height: 20vh;
+    background-image: linear-gradient(130deg, rgb(247, 196, 207) 50% , rgb(246, 128, 152) 50%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+.callnow h2{
+    margin-right: 40px;
+}
+#b1{
+    background-color: rgb(157, 77, 2);
+    width: 300px;
+    height: 50px;
+    font-size: 22px;
+    margin: 20px;
+    border-radius: 50px;
+    color: rgb(245, 239, 239);
+    font: bold;
+}
+
+#b2{
+    background-color: rgb(2, 2, 119);
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: rgb(248, 243, 243);
+    font: bold;
+}
+footer{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+}
+
+
+
+
